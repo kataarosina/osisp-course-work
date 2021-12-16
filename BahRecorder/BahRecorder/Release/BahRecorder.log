@@ -1,0 +1,15 @@
+﻿  BahRecorder.cpp
+BahRecorder.cpp(193): warning C4018: '<': signed/unsigned mismatch
+BahRecorder.cpp(195): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+BahRecorder.cpp(215): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+BahRecorder.cpp(232): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+BahRecorder.cpp(237): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+BahRecorder.cpp(245): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+BahRecorder.cpp(419): warning C4244: 'initializing': conversion from 'double' to 'QWORD', possible loss of data
+  Generating code
+  5 of 15 functions (33.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BahRecorder.vcxproj -> D:\Учёба\3 КУРС\1 сем\Курсач\BahRecod\BahRecorder\Release\BahRecorder.exe
+  BahRecorder.vcxproj -> D:\Учёба\3 КУРС\1 сем\Курсач\BahRecod\BahRecorder\Release\BahRecorder.pdb (Full PDB)

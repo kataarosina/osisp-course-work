@@ -1,0 +1,75 @@
+﻿Build started 08.12.2016 21:31:55.
+     1>Project "D:\Учёба\3 КУРС\1 сем\Курсач\BahRecod\BahRecorder\BahRecorder\BahRecorder.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         E:\Программы\Visual Studio\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\BahRecorder.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Программы\Visual Studio\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\BahRecorder.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt BahRecorder.cpp
+         BahRecorder.cpp
+     1>BahRecorder.cpp(54): error C2664: LoadStringW: невозможно преобразовать параметр 3 из "LPSTR" в "LPWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(125): error C2664: CreateWindowExW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(126): error C2664: CreateWindowExW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(127): error C2664: CreateWindowExW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(128): error C2664: CreateWindowExW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(129): error C2664: CreateWindowExW: невозможно преобразовать параметр 3 из "const char [17]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(134): error C2664: CreateWindowExW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(139): error C2664: CreateWindowExW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(144): error C2664: CreateFontW: невозможно преобразовать параметр 14 из "const char [13]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(160): error C2664: MessageBoxW: невозможно преобразовать параметр 2 из "const char [6]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(215): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(223): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "const char [6]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(230): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "const char [7]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(238): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "const char [6]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(253): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "const char [10]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(332): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "char [8]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(341): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+     1>BahRecorder.cpp(342): warning C4244: инициализация: преобразование "double" в "QWORD", возможна потеря данных
+     1>BahRecorder.cpp(390): error C2664: MessageBoxW: невозможно преобразовать параметр 2 из "const char [6]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(403): error C2664: MessageBoxW: невозможно преобразовать параметр 2 из "const char [6]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(435): error C2664: MessageBoxW: невозможно преобразовать параметр 2 из "const char [6]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(470): error C2440: =: невозможно преобразовать "const char [19]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(472): error C2440: =: невозможно преобразовать "char [255]" в "LPWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(474): error C2440: =: невозможно преобразовать "char [256]" в "LPWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(476): error C2440: =: невозможно преобразовать "char [256]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(479): error C2440: =: невозможно преобразовать "const char [17]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(483): error C2440: =: невозможно преобразовать "const char [11]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(500): error C2664: PathStripPathW: невозможно преобразовать параметр 1 из "char *" в "LPWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(501): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "char *" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(516): error C2664: PathStripPathW: невозможно преобразовать параметр 1 из "char *" в "LPWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(517): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "char *" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>BahRecorder.cpp(518): error C2664: SetWindowTextW: невозможно преобразовать параметр 2 из "const char [8]" в "LPCWSTR"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>Done Building Project "D:\Учёба\3 КУРС\1 сем\Курсач\BahRecod\BahRecorder\BahRecorder\BahRecorder.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59
